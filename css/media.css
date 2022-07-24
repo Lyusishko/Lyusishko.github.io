@@ -1,0 +1,197 @@
+@media  (max-width:1024px) {
+    /*меню*/
+    .menu_button {
+        display: block;
+        margin-left: -200px;
+    }
+    .nav_menu ul {
+        display: none;
+    }
+    #menu_button:checked ~ ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav_menu li {
+        padding: 0;
+        margin-bottom: 20px;
+    }
+
+    .nav_menu ul {
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgb(95, 93, 93);
+        opacity: 0.8;
+
+        padding: 3%;
+        min-width: 190px;
+        height: 453px;
+        margin-left: 0;
+        margin-top: 80px;
+    }
+
+    /*контент*/
+    h1 {
+        font-size: 28px;
+        margin-top: 130px;
+    }
+    h2 {
+        font-size: 49px;
+    }
+    .more {
+        margin-left: 300px;
+        margin-top: 45px;
+    }
+    .services {
+        margin-top: 0;
+    }
+    .circle_icon {
+        margin-left: 100px;
+    }
+    .e-com_icon, 
+    .resp_web_icon {
+        margin-left: 119px;
+    }
+    .web_sec_icon {
+        margin-left: 125px;
+    }   
+    .preview {
+        width: 258px;
+        height: 260px;
+    }
+    .about > div {
+        width: 510px;
+    }
+    .footer {
+        width: 1024px;
+    }
+    .foot_container {
+        width: 1024px;
+        margin-top: 90px;
+    } 
+    .footer h3 {
+        font-size: 35px;
+        margin-top: 70px;
+    } 
+    .footer .container p {
+        font-size: 14px;
+    }  
+    .footer .container {
+        grid-template-columns: 300px 300px;
+        grid-template-rows: 100px 15px 40px 40px 40px 60px;
+        grid-gap: 20px;
+    }
+    .grid button {
+        margin-left: 190px;
+        width: 220px;
+        height: 60px;
+        font-size: 16px;
+    }
+    .foot_info p {
+        margin-left: 30px;
+    }
+    .foot_contacts {
+        margin-left: 425px;
+    }
+}
+
+@media  (max-width:768px) {
+    .nav_menu ul {
+        min-width: 160px;
+        height: 320px;
+    }
+    h1 {
+        font-size: 19px;
+        margin-top: 75px;
+    }
+    h2 {
+        font-size: 38px;
+    }
+    .more {
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+        margin-left: 220px;
+        margin-top: 30px;    
+    }
+    .circle_icon {
+        margin-left: 70px;
+    }
+    .e-com_icon, 
+    .resp_web_icon {
+        margin-left: 89px;
+    }
+    .web_sec_icon {
+        margin-left: 94px;
+    }   
+    .preview {
+        width: 200px;
+        height: 205px;
+        background-size: contain;
+    }
+    .promo {
+        width: 150px;
+        background-size: contain;
+    }
+    .about h5 {
+        font-size: 14px;
+    }
+    .july p,
+    .january p,
+    .december p,
+    .february p {
+        font-size: 9px;
+    }
+    .about > div {
+        width: 380px;
+        height: 150px;
+    }
+    .info_left,
+    .info_right {
+        width: 300px;
+    }
+    .info_left {
+        margin-right: 160px;
+    }
+    .info_right {
+       margin-right: -305px;
+    }
+    .partners {
+        width: 690px;
+    }
+    .footer {
+        max-width: 765px;
+    }
+    .footer .container {
+        grid-template-rows: 50px 15px 30px 30px 30px 50px;
+        grid-gap: 15px;
+    }
+    .footer h3 {
+        font-size: 30px;
+        margin-top: 25px;
+    } 
+    .grid button {
+        margin-left: 210px;
+        width: 180px;
+        height: 50px;
+        font-size: 14px;
+    }
+    .foot_info p {
+        font-size: 11px;
+    }
+    .foot_container a {
+        width: 38px;
+        height: 38px;
+    }
+    .foot_tw span,
+    .foot_fb span,
+    .foot_pin span,
+    .foot_google span {
+        width: 38px;
+        height: 38px;
+        background-size: contain;
+    }
+    .foot_contacts {
+        margin-left: 310px;
+    }
+}

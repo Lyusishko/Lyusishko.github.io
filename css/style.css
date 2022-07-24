@@ -1,0 +1,663 @@
+body {    
+    overflow-x: hidden;
+    background-image: url(../img/bg-img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+body .container,
+footer .container,
+.foot_container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    max-width: 1280px;
+}
+
+
+/*меню*/
+header {    
+    margin-top: 40px;    
+}
+
+.menu {
+    display: inline-flex;
+    
+}
+
+.menu_button {
+    position: relative;
+    display: none;
+    border: 0;
+    background: none;
+    margin-top: 8px;
+}
+
+.menu_button::before {
+    content: 'Menu';
+    font-family: 'MontReg';
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu_button label {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#menu_button {
+    display: none;
+}
+
+.logo_icon span {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 90px;
+    display: block;
+}
+
+.nav_menu ul {
+    margin-left: 390px;
+    
+    display: flex;
+    list-style: none;
+}
+
+.nav_menu li {    
+    position: relative;
+    padding: 10px 10px;    
+}
+
+.nav_menu a {    
+    font-family: 'MontReg';
+    font-size: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav_menu a:hover {
+    transform: scale(1.2);
+    animation: 0.3s ease;
+    display: block;
+}
+
+
+/*заголовок*/
+
+h1 {
+    font-family: 'DroidSerifItalic';
+    font-size: 33px;
+    text-align: center;
+    margin-top: 220px;
+    color: white;
+}
+
+h2 {
+    font-family: 'MontBold';
+    text-transform: uppercase;
+    margin-top: 27px;
+    text-align: center;
+    font-size: 67px;
+    color: white;
+}
+
+.more {
+    background-color: #fed136;
+    border: none;
+    width: 240px;
+    height: 65px;
+    margin-top: 59px;
+    margin-left: 440px;
+    margin-bottom: 130px;
+
+    font-family: 'MontBold';
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*секция 1*/
+
+.services {
+    margin-top: 100px;
+}
+
+h3 {
+    font-family: 'MontBold';
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 9px;
+}
+
+p {
+    font-family: 'DroidSerifItalic';
+    font-size: 16px;
+    text-align: center;
+    color: #898989;
+    margin-bottom: 70px;
+}
+
+.services > div {
+    display: flex;
+}
+
+.e-com  div {
+    display: flex;    
+}
+
+.circle_icon {
+    background-image: url(../img/Circle.png);
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    margin-left: 140px;
+}
+
+.e-com_icon,
+.resp_web_icon,
+.web_sec_icon {
+    background-repeat: no-repeat;
+    width: 49px;
+    height: 49px;
+    
+    margin-top: 18px;
+    position: relative;
+}
+
+.e-com_icon,
+.resp_web_icon {
+    margin-left: 158px;
+}
+
+.e-com_icon {    
+    background-image: url(../img/e-comm.png);    
+}
+
+.resp_web_icon {
+    background-image: url(../img/resp-web.png);    
+}
+
+.web_sec_icon {
+    background-image: url(../img/сomb-shape.png);
+    
+    margin-left: 164px;    
+}
+
+h4 {
+    font-family: 'MontBold';
+    font-size: 18px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.services_info p {
+    width: 98%;
+}
+
+p span {
+    font-family: 'RobotoSlab';
+    font-size: 12px;
+    color: #898989;
+}
+
+/*секция 2*/
+.portfolio {
+    background-color: #f7f7f7; 
+    width: 100%;   
+}
+
+.portfolio h3 {
+    margin-top: 60px;
+}
+
+h5 {
+    font-family: 'MontBold';
+    font-size: 18px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.portfolio > div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;    
+}
+
+.portfolio a {
+    text-decoration: none;
+    color: black;
+    display: inline;
+}
+
+.portfolio a:hover {
+    transform: scale(1.1);
+    animation: 0.3s ease;
+    display: block;
+}
+
+.preview {
+    width: 287px;
+    height: 297px;
+}
+
+.ebony .preview {
+    background-image: url(../img/ebony.png);
+}
+
+.smart .preview {
+    background-image: url(../img/smart.png);
+}
+
+.clever .preview {
+    background-image: url(../img/clever.png);
+}
+
+.vinyl .preview {
+    background-image: url(../img/vinyl.png);
+}
+
+.template .preview {
+    background-image: url(../img/template.png);
+}
+
+.burned-logo .preview {
+    background-image: url(../img/burned-logo.png);
+}
+
+/*секция 3*/
+
+.about > div {
+    display: flex;
+    justify-content: flex-end;
+    width: 630px;
+    height: 276px;
+}
+
+.about h3 {
+    margin-top: 60px;
+}
+
+.about h5 {
+    margin-top: 0%;
+    font-size: 16px;
+}
+
+h5 span {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.july p,
+.january p,
+.december p,
+.february p {
+    font-family: 'RobotoSlab';
+    font-size: 12px;
+    color: #898989;
+}
+
+.promo {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.info_left,
+.info_right {
+    width: 350px;
+}
+
+.info_left {
+    margin-right: 220px;
+    text-align-last: right;
+}
+
+.info_right {
+    text-align-last: left;
+    margin-right: -376px;
+}
+
+.july .promo {
+    background-image: url(../img/july.png);
+    background-repeat: no-repeat;
+}
+
+.january .promo {
+    background-image: url(../img/january.png);
+    background-repeat: no-repeat;
+}
+
+.december .promo {
+    background-image: url(../img/december.png);
+    background-repeat: no-repeat;
+}
+
+.february .promo {
+    background-image: url(../img/february.png);
+    background-repeat: no-repeat;
+}
+
+.end .promo {
+    background-image: url(../img/story.png);
+    background-repeat: no-repeat;
+}
+
+/*секция 4*/
+
+.team > div {
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+}
+
+.team h3 {
+    margin-top: 100px;
+}
+
+.team h4 {
+    margin-bottom: 8px;
+}
+
+.team_dream p {
+    font-family: 'RobotoSlab';
+    font-size: 14px;
+    color: #898989;
+}
+
+.photo {
+    background-image: url(../img/photo.png);
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 240px;
+}
+
+.contacts {
+    display: flex;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.marketer .contacts,
+.coder .contacts {
+    margin-left: 50px;
+    margin-top: -45px;
+}
+
+.designer .contacts {
+    margin-left: 75px;
+    margin-top: -45px;
+}
+
+.tw span {
+    background-image: url(../img/tw.png); 
+    width: 45px;
+    height: 45px; 
+    display: block;  
+}
+
+.fb span {
+    background-image: url(../img/fb.png);
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+.google span {
+    background-image: url(../img/google.png);
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+.pin span {
+    background-image: url(../img/pin.png);
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+.team p span {
+    font-size: 16px;
+    margin-top: 35px;
+    margin-bottom: 130px;
+}
+
+.contacts a:hover {
+    transform: scale(1.1);
+    animation: 0.3s ease;
+    display: block;
+}
+
+/*секция 5*/
+
+.partners {
+    width: 765px;
+    height: 43px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+}
+
+.partners a:hover {
+    transform: scale(1.1);
+    animation: 0.3s ease;
+    display: block;
+}
+
+.envato span {
+    background-image: url(../img/envato.png);
+    background-repeat: no-repeat;
+    width: 161px;
+    height: 42px;
+    margin-top: 25px;
+    display: block;
+}
+
+.wordpress span {
+    background-image: url(../img/wordpress.png);
+    background-repeat: no-repeat;
+    width: 186px;
+    height: 42px;
+    margin-top: 25px;
+    display: block;
+}
+
+.aetuts span {
+    background-image: url(../img/tuts.png);
+    background-repeat: no-repeat;
+    width: 131px;
+    height: 42px;
+    margin-top: 25px;
+    display: block;
+}
+
+.microlancer span {
+    background-image: url(../img/microlancer.png);
+    background-repeat: no-repeat;
+    width: 167px;
+    height: 42px;
+    margin-top: 25px;
+    display: block;
+}
+
+/*футер*/
+
+.footer {
+    background-image: url(../img/bg-footer.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 50px;    
+}
+
+.footer h3 {
+    margin-top: 91px;
+    color: white;
+    text-align: center;
+}
+
+/*грид*/
+
+.footer .container {
+    color: #f7f7f7;
+    display: grid;
+
+    grid-template-columns: 400px 400px;
+    grid-template-rows: 125px 20px 50px 50px 50px 66px;
+    grid-gap: 30px;
+    justify-content: center;
+}
+
+.grid:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid:nth-child(2) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid:nth-child(4) {
+    grid-column-start: 2;
+    grid-row-start: 3;
+    grid-row-end: 6;
+}
+
+.grid:nth-child(7) {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid:nth-child(3) input,
+.grid:nth-child(4) input,
+.grid:nth-child(5) input,
+.grid:nth-child(6) input {
+    width: 100%;
+    height: 100%;
+        
+}
+
+.grid button {
+    background-color: #fed136;
+    border: none;
+    width: 240px;
+    height: 65px;
+    
+    margin-left: 300px;
+
+    font-family: 'MontBold';
+    font-size: 17px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.grid input {
+    padding: 5px;
+}
+.grid input::placeholder {
+    font-family: 'MontBold';
+    font-size: 14px;
+    color:#898989;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+
+.foot_container {
+    display: flex;
+    position: relative;
+    margin-top: 170px;
+}
+
+.foot_contacts {
+    display: flex;
+
+    position: absolute;
+    margin-left: 480px;
+    margin-top: 30px;
+}
+
+.foot_info p {
+    font-family: 'MontReg';
+    font-size: 14px;
+    margin-top: 45px;
+}
+
+.foot_container a {
+    width: 44px;
+    height: 44px;
+}
+
+.foot_container a:hover {
+    transform: scale(1.1);
+    animation: 0.3s ease;
+    display: block;
+}
+
+.foot_tw span {
+    background-image: url(../img/foot-tw.png);
+    width: 44px;
+    height: 44px;
+    display: block;
+}
+
+.foot_fb span {
+    background-image: url(../img/foot-fb.png) ;
+    width: 44px;
+    height: 44px;   
+    display: block; 
+}
+
+.foot_pin span {
+    background-image: url(../img/foot-pin.png);
+    width: 44px;
+    height: 44px;
+    display: block;
+}
+
+.foot_google span {
+    background-image: url(../img/foot-google.png);
+    width: 44px;
+    height: 44px;  
+    display: block;  
+}
+
+@font-face {
+    font-family: 'MontReg';
+    src: url(../fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'DroidSerifItalic';
+    src: url(../fonts/DroidSerif-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'MontBold';
+    src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoSlab';
+    src: url(../fonts/RobotoSlab.ttf);
+}
+
+
